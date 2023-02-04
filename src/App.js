@@ -9,7 +9,7 @@ function App() {
     <Router basename="/kuda-test">
       <Routes>
         <Route path="/" element={<HomePage/>}/>
-        <Route path="/kuda-test" element={<HomePage />} />
+        <Route path="/kuda-test" element={<HomePage />}/>
         <Route path="/joinKuda" element={<JoinKuda/>}/>
         <Route path="/signIn" element={<SignIn/>}/>
       </Routes>
