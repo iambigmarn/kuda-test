@@ -333,7 +333,7 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
     height: 40px;
 }
 
-.defaultMobileContainer .buttonCTA:hover {
+.defaultMobileContainer .buttonCTAPrimaryLight:hover {
     color: #40196d;
 }
 
