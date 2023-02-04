@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kuda-test/static/css/main.d5afb171.css",
+    "main.js": "/kuda-test/static/js/main.69c46347.js",
+    "static/js/787.b55315eb.chunk.js": "/kuda-test/static/js/787.b55315eb.chunk.js",
+    "index.html": "/kuda-test/index.html",
+    "main.d5afb171.css.map": "/kuda-test/static/css/main.d5afb171.css.map",
+    "main.69c46347.js.map": "/kuda-test/static/js/main.69c46347.js.map",
+    "787.b55315eb.chunk.js.map": "/kuda-test/static/js/787.b55315eb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5afb171.css",
+    "static/js/main.69c46347.js"
+  ]
+}
