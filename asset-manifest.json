@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/kuda-test/static/css/main.4210ad13.css",
-    "main.js": "/kuda-test/static/js/main.69c46347.js",
+    "main.js": "/kuda-test/static/js/main.139f8454.js",
     "static/js/787.b55315eb.chunk.js": "/kuda-test/static/js/787.b55315eb.chunk.js",
     "index.html": "/kuda-test/index.html",
     "main.4210ad13.css.map": "/kuda-test/static/css/main.4210ad13.css.map",
-    "main.69c46347.js.map": "/kuda-test/static/js/main.69c46347.js.map",
+    "main.139f8454.js.map": "/kuda-test/static/js/main.139f8454.js.map",
     "787.b55315eb.chunk.js.map": "/kuda-test/static/js/787.b55315eb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4210ad13.css",
-    "static/js/main.69c46347.js"
+    "static/js/main.139f8454.js"
   ]
 }
