@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Routes, Route } from 'react-router-dom';
 import { HomePage } from './pages/homePage';
 import "./assets/main.css";
 import { JoinKuda } from './pages/joinKuda';
@@ -6,13 +6,13 @@ import { SignIn } from './pages/signIn';
 
 function App() {
   return (
-    <Router basename="/kuda-test">
+    <HashRouter basename="/kuda-test">
       <Routes>
-        <Route path="/" component={<HomePage/>}/>
-        <Route path="/joinKuda" component={<JoinKuda/>}/>
-        <Route path="/signIn" component={<SignIn/>}/>
+        <Route path="/" element={<HomePage/>}/>
+        <Route path="/joinKuda" element={<JoinKuda/>}/>
+        <Route path="/signIn" element={<SignIn/>}/>
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }
 
