@@ -324,8 +324,11 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
     width: auto;
 }
 
+.buttonCTAMd:hover{
+    color: #fff;
+}
+
 .defaultMobileContainer .buttonCTA {
-    color: #40196d;
     font-size: 13px;
     height: 40px;
 }
