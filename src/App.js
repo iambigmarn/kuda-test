@@ -6,7 +6,7 @@ import { SignIn } from './pages/signIn';
 
 function App() {
   return (
-    <Router basename="/kuda-test">
+    <Router>
       <Routes>
         <Route path="/" element={<HomePage/>}/>
         <Route path="/kuda-test" element={<HomePage />}/>
