@@ -325,8 +325,13 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
 }
 
 .defaultMobileContainer .buttonCTA {
+    color: #40196d;
     font-size: 13px;
     height: 40px;
+}
+
+.defaultMobileContainer .buttonCTA:hover {
+    color: #40196d;
 }
 
 .defaultMobileContainer .defaultFooterNav {
