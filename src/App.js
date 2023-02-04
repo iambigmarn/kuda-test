@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { HomePage } from './pages/homePage';
 import "./assets/main.css";
 import { JoinKuda } from './pages/joinKuda';
