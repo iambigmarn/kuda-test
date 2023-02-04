@@ -316,7 +316,7 @@ export const HeaderOne = () => {
                                     <a href="/signIn" rel="noopener noreferrer" className="headerOneMenuAction buttonCTA buttonCTAMd">
                                         Sign In
                                     </a>
-                                    <a href="#" className="ms-3 headerOneMenuAction buttonCTA buttonCTAMd buttonCTAPrimaryLight">
+                                    <a href="#" className="ms-3 headerOneMenuAction buttonCTA buttonCTAPrimaryLight">
                                         Business
                                     </a>
                                 </div>
