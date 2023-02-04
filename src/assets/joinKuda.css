@@ -1,0 +1,246 @@
+.joinKudaView {
+    padding: 70px 40px 63px;
+    margin-top: 70px;
+    transition: -webkit-transform .8s;
+    transition: transform .8s;
+    transition: transform .8s,-webkit-transform .8s;
+    -webkit-transform: translateY(0)!important;
+    transform: translateY(0)!important;
+    min-height: calc(100vh - 120px);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+
+.overflow-visible .defaultEntryInner {
+    overflow: visible;
+}
+
+.defaultEntryInner:not(.bodyCTASection) {
+    min-height: 540px;
+    overflow: hidden;
+}
+
+.joinKudaView>div>* {
+    opacity: 1;
+    transition: opacity .7s cubic-bezier(.47,0,.745,.715),-webkit-transform 1.3s;
+    transition: opacity .7s cubic-bezier(.47,0,.745,.715),transform 1.3s;
+    transition: opacity .7s cubic-bezier(.47,0,.745,.715),transform 1.3s,-webkit-transform 1.3s;
+    -webkit-transition: opacity .7s cubic-bezier(.47,0,.745,.715),transform 1.3s;
+    -moz-transition: opacity .7s cubic-bezier(.47,0,.745,.715),transform 1.3s;
+    -ms-transition: opacity .7s cubic-bezier(.47,0,.745,.715),transform 1.3s;
+    -o-transition: opacity .7s cubic-bezier(.47,0,.745,.715),transform 1.3s;
+    transform: translate3d(0,35px,0);
+    -webkit-transform: translate3d(0,35px,0);
+    -moz-transform: translate3d(0,35px,0);
+    -ms-transform: translate3d(0,35px,0);
+    -o-transform: translate3d(0,35px,0);
+}
+
+.homeMainWrap {
+    max-width: 450px;
+}
+
+.title-bottom--spacing {
+    margin-bottom: 20px;
+}
+
+.text-xlbold {
+    font-weight: 900;
+}
+
+.text-xl {
+    font-size: 3rem!important;
+    line-height: 1.15;
+}
+
+.bottom--spacing {
+    margin-bottom: 32px;
+}
+
+.card-main--heading {
+    font-size: 1.25rem;
+}
+
+.text-semi-bold {
+    font-weight: 600;
+}
+
+.singleBadge:not(:last-child) {
+    margin-right: 11px;
+}
+
+.singleBadge {
+    display: inline-flex;
+    transition: -webkit-transform .6s;
+    transition: transform .6s;
+    transition: transform .6s,-webkit-transform .6s;
+}
+
+.qRCodeWrap>div {
+    background: #fff;
+    box-shadow: 0 0 25px rgb(0 0 0 / 6%);
+    border-radius: 4px;
+    padding: 16px;
+    display: inline-block;
+    width: auto;
+}
+
+.bodyIllustrationCenter {
+    display: flex;
+    justify-content: center;
+}
+
+.bodyIllustrationCenter .isImage, .bodyIllustrationCenter img {
+    max-width: 560px;
+    max-height: 435px;
+    width: auto;
+}
+
+.bodyBelowFold {
+    margin-top: 50px;
+}
+
+.bodySectionInner {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.summary-bottom .card, .defaultSummaryTop .card {
+    margin-bottom: 20px;
+}
+
+.defaultSummaryTop .card {
+    width: calc(33.33% - 13px);
+}
+
+.cardItem {
+    background-color: white;
+    box-shadow: 0 0 25px rgb(0 0 0 / 6%);
+    border-radius: 5px;
+    padding: 22px 25px;
+    border: 0px;
+}
+
+.cardItem p {
+    font-size: .975rem;
+}
+
+@media only screen and (min-width: 768px){
+    .mobileOnly {
+        display: none!important;
+    }
+    .bodySection50 {
+        width: 50%;
+    }
+    .cardIconSpacing {
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .joinKudaView {
+        padding-top: 50px;
+        display: block;
+    }
+    .defaultEntryInner {
+        flex-wrap: wrap;
+    }
+    .kuda-section--42, .bodySection50, .kuda-section--58 {
+        width: 100%;
+    }
+    .defaultEntryInner>div>.homeMainWrap {
+        margin-top: 10px;
+    }
+    .homeMainWrap {
+        display: flex;
+        flex-direction: column;
+        max-width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .defaultEntryFold .homeMainWrap *, .homeMainWrap * {
+        text-align: center!important;
+    }
+    .is-mobile-legal .bottom--spacing, .title-bottom--spacing {
+        margin-bottom: 10px;
+    }
+    .text-xl {
+        font-size: 2.5rem!important;
+        line-height: 1.33;
+    }
+    .mobileOnly {
+        margin-top: 10px;
+        display: flex;
+    }
+    .deskTopOnly {
+        display: none;
+    }
+    .mobileAppBadges, .kuda-app--licenses {
+        justify-content: center;
+    }
+    .kuda-get--wrap, .qRCodeWrap {
+        display: none!important;
+    }
+    .bodyIllustrationCenter {
+        margin-top: 30px;
+        display: block;
+    }
+    .bodyIllustrationCenter .isImage, .bodyIllustrationCenter img {
+        width: 100%;
+        max-width: 320px!important;
+        height: 100%;
+        display: block;
+        max-height: 435px;
+        margin: 0 auto;
+    }
+    .bodySectionInner, .defaultSummaryCards {
+        flex-wrap: wrap;
+    }
+    .summary-bottom .card:not(:last-child), .defaultSummaryTop .card:not(:last-child) {
+        margin-bottom: 20px;
+    }
+    .kuda-section--45, .kuda-section--55, .summary-bottom .card, .defaultSummaryTop .card {
+        width: 100%!important;
+    }
+    .cardItem {
+        padding: 20px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .cardIconSpacing {
+        margin-bottom: 0;
+    }
+    .cardItem p {
+        margin-left: 18px;
+    }
+    .card {
+        flex-direction: unset;
+    }
+}
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 1180px;
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px){
+        .defaultEntryFold .homeMainWrap * {
+        text-align: left!important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1280px) and (max-height: 698px){
+    .homeMainWrap {
+        max-width: 340px;
+    }
+    .joinKudaView {
+        padding: 40px 40px 55px;
+        margin-top: 58px;
+    }
+    .defaultEntryInner:not(.bodyCTASection){
+        min-height: 440px;
+    }
+}

@@ -1,0 +1,176 @@
+.defaultFooter {
+    padding-top: 5%!important;
+}
+
+.mb-5, .my-5 {
+    margin-bottom: 3rem!important;
+}
+
+footer {
+    border-top: 1px solid rgba(223,227,255,.5);
+    margin-top: 80px;
+}
+
+.pb-4, .py-4 {
+    padding-bottom: 1.5rem!important;
+}
+
+footer .container {
+    max-width: 1180px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+footer .container {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.defaultFooterNav {
+    display: flex;
+}
+
+.defaultFooterCol:not(:last-child) {
+    margin-right: 30px;
+}
+
+.defaultFooterCol {
+    width: 20%;
+}
+
+.defaultFooterMenu {
+    margin-top: 20px;
+}
+
+.defaultFooterMenu li:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.defaultFooterMenu li {
+    font-size: .875rem;
+}
+
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+}
+
+.comingSoonDownloads {
+    margin-top: 4.5rem;
+}
+
+.pb-2, .py-2 {
+    padding-bottom: 0.5rem!important;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.footerProductOne {
+    font-style: normal;
+    font-weight: 400;
+    font-size: .9rem;
+    text-align: center;
+    color: #979797;
+}
+
+.footerContactInformation {
+    display: flex;
+    justify-content: space-between;
+    margin: 4.3rem 0;
+}
+
+.informationColumn:not(:last-child) {
+    margin-right: 30px;
+}
+
+.informationColumn {
+    width: 33.33%;
+}
+
+.other-info {
+    margin-top: 15px;
+}
+
+.linkDecoration {
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.text-bold {
+    font-weight: 700!important;
+}
+
+.footerSocials {
+    margin-top: 23px;
+}
+
+.footerSocials li a {
+    margin-right: 8px;
+    height: 100%;
+}
+
+.other-info p {
+    font-size: .875rem;
+    max-width: 200px;
+}
+
+.defaultFooterConditions p {
+    font-size: 12px;
+    color:#979797;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1280px) and (max-height: 698px){
+    .defaultFooterConditions p {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .defaultFooter {
+        margin-bottom: 100px!important;
+    }
+    footer {
+        margin-top: 30px;
+    }
+
+    .informationColumn:first-child, .defaultFooterCol:first-child {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .defaultFooterBrand {
+        margin-top: 40px;
+    }
+    .informationColumn:not(:first-child), .defaultFooterCol:not(:first-child) {
+        width: 50%;
+        margin-right: 0;
+        padding-right: 15px;
+        margin-top: 30px;
+    }
+    .comingSoonDownloads {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .comingSoonDownloads>div {
+        width: calc(33.33% - 6px);
+    }
+    .comingSoonDownloads>div img {
+        width: 100%;
+        height: auto;
+    }
+    .footerContactInformation, .defaultFooterNav {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    footer .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

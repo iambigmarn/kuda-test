@@ -1,0 +1,78 @@
+.defaultHeaderWrap {
+    display: block;
+    margin: 0 auto;
+    max-width: 1500px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.defaultHeader {
+    background: #fff;
+    box-shadow: 0 4px 13px rgb(0 0 0 / 5%);
+    height: 70px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.headerActions {
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.defaultHeaderWrap .buttonCTA {
+    border: 1px solid #40196d;
+    font-size: 15px;
+    height: 46px;
+    max-width: 175px;
+    width: 175px;
+}
+
+.buttonCTAPrimaryLight {
+    background: #eff1ff;
+    color: #40196d;
+}
+
+.buttonCTA, .kuda-cta-light {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    padding: 15px;
+    transition: -webkit-transform .6s;
+    transition: transform .6s;
+    transition: transform .6s,-webkit-transform .6s;
+}
+
+@media only screen and (max-width: 320px){
+    .headerActions {
+        position: static;
+    }
+    .defaultHeaderWrap {
+        align-items: start!important;
+        flex-direction: column;
+    }
+    .headerActions {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .defaultHeader {
+        height: 64px;
+    }
+    .defaultHeaderWrap .buttonCTA {
+        font-size: 14px;
+        height: 42px;
+        width: 150px;
+    }
+}
+

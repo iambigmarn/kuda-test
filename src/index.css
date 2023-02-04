@@ -1,13 +1,111 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Muli';
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  color: #40196d;
+  text-decoration: none;
 }
+
+a:hover {
+  color: #40196d;
+  text-decoration: none;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0rem;
+}
+
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 0rem;
+}
+ol, ul {
+  padding-left: 0rem;
+}
+
+
+@media (min-width: 1200px){
+  .container {
+      max-width: 1180px;
+      padding-right: 60px;
+      padding-left: 60px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1280px) and (max-height: 698px){
+  .container {
+      max-width: 991px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .getMobileApp {
+    display: flex!important;
+  }
+}
+
+.appStars {
+  margin-left: 16px;
+}
+
+.kudaBadge {
+  display: flex;
+}
+
+.appName {
+  line-height: 1;
+  font-size: 1.15rem;
+}
+
+.starSvg {
+  display: flex;
+  margin-top: 6px;
+}
+
+.text-xbold {
+  font-weight: 800;
+}
+
+.no-margin--bottom {
+  margin-bottom: 0!important;
+}
+
+.container {
+  padding-top: 60px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.card {
+  border: 0;
+}
+
+.getMobileApp {
+  display: none;
+  height: 80px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #eff1ff;
+  z-index: 9;
+}
+
+.fadeInUp {
+  opacity: 0;
+  transform: translateY(90px);
+  transition: all .55s ease-out;
+}
+
+.fadeInUp.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+

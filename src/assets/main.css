@@ -1,0 +1,131 @@
+.defaultHeaderWrap {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: block;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.defaultHeader {
+    background: #fff;
+    box-shadow: 0 4px 13px rgb(0 0 0 / 5%);
+    height: 70px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.logoBrand {
+    min-width: 100px;
+}
+
+
+.buttonCTA {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 4px;
+    justify-content: center;
+    cursor: pointer;
+    background: #40196d;
+    border-radius: 10px;
+    color: white;
+    height: 48px;
+    transition: transform .6s;
+}
+
+.defaultHeaderWrap .buttonCTA {
+    border: 1px solid #40196d;
+    font-size: 15px;
+    height: 46px;
+    max-width: 255px;
+    min-width: 136px;
+    width: 175px;
+}
+
+.buttonCTAPrimaryLight {
+    background: #eff1ff;
+    color: #40196d;
+}
+
+.buttonCTALg {
+    max-width: 152px;
+    width: 100%;
+}
+
+.defaultView {
+    margin-top: 70px;
+    padding: 63px 40px;
+    transition: -webkit-transform .8s;
+    transition: transform .8s;
+    transition: transform .8s,-webkit-transform .8s;
+}
+
+.defaultPageTransition .defaultPreview {
+    -webkit-transform: translateY(0)!important;
+    transform: translateY(0)!important;
+    min-height: calc(100vh - 120px);
+}
+
+.defaultPreview {
+    padding: 70px 40px 63px;
+    margin-top: 70px;
+    transform: translateY(0);
+    transition: -webkit-transform .8s;
+    transition: transform .8s;
+    transition: transform .8s,-webkit-transform .8s;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+
+.defaultLayout {
+    align-items: center;
+    display: flex;
+    max-width: 1371px;
+    min-height: calc(100vh - 90px);
+    overflow: hidden;
+    padding-left: 60px;
+    padding-right: 60px;
+    position: relative;
+}
+
+.linkDecoration {
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+
+.column100, .row100 {
+    width: 100%;
+}
+
+.titlebottomSpacing {
+    margin-bottom: 20px;
+}
+
+.textXlBold {
+    font-weight: 900;
+}
+
+.textXl {
+    font-size: 3rem!important;
+    line-height: 1.15;
+}
+
+.cardMainHeading {
+    font-size: 1.25rem;
+}

@@ -1,0 +1,339 @@
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1180px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .defaultHomeFold {
+        min-height: 635px;
+        display: flex;
+    }
+}
+.defaultHomeFold, .overflow-hidden {
+    overflow: hidden;
+}
+
+.bodySection42 {
+    width: 42%;
+}
+
+.defaultContainer {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bodySection58 {
+    width: 58%;
+}
+
+.homeMainWrap {
+    max-width: 450px;
+}
+
+.title-bottom--spacing {
+    margin-bottom: 20px;
+}
+
+.text-xlbold {
+    font-weight: 900;
+}
+.text-xl {
+    font-size: 3rem!important;
+    line-height: 1.15;
+}
+
+.title-bottom--spacing {
+    margin-bottom: 20px;
+}
+
+.cardMainHeading {
+    font-size: 1.25rem;
+}
+.text-semi-bold {
+    font-weight: 600;
+}
+
+.defaultGetWrap .mt-4 {
+    margin-top: 2rem!important;
+}
+.defaultGetWrap .buttonCTALong {
+    max-width: 152px;
+}
+.buttonCTALong {
+    width: 100%;
+}
+
+.hasAnimation {
+    position: relative;
+    margin-top: -12px;
+}
+
+.bodyIllustrationCenter {
+    display: flex;
+    justify-content: center;
+}
+
+.hasAnimation [aria-label=animation] {
+    pointer-events: none;
+    overflow: visible!important;
+}
+
+.bodyPhoneIllustration {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bodyPhoneIllustration>div {
+    display: flex;
+}
+
+.bodyPhoneIllustration svg {
+    width: calc(100% - 100px)!important;
+    height: auto!important;
+    margin: auto;
+    position: relative;
+    top: -11px;
+}
+
+.bodySection {
+    margin-top: 12.5%;
+}
+.defaultPreview {
+    -webkit-transform: translateY(0)!important;
+    transform: translateY(0)!important;
+    min-height: calc(100vh - 120px);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1440px) and (max-height: 798px) {
+    .defaultPreview {
+        margin-top: 65px;
+        padding: 48px 40px 60px;
+    }
+}
+
+.bodyCTASection {
+    background: #eff1ff;
+    border: 1px solid rgba(219,220,224,.5);
+    box-shadow: 15px 30px 40px rgb(64 25 109 / 7%);
+    border-radius: 5px;
+    padding: 10px 88px 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.bodySection55 {
+    width: 45%;
+}
+
+.bodySectionWrap {
+    max-width: 420px;
+}
+
+.bodySectionHeading {
+    font-size: 2.25rem;
+    line-height: 1.38;
+}
+
+.bodySectionMax {
+    max-width: 350px;
+}
+
+.bodySection55 {
+    width: 55%;
+}
+
+.bodySectionIllustration svg.transform-right {
+    transform: scale(1.2)!important;
+}
+
+.bodyTextRight .bodySectionWrap {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bodySectionWrap {
+    max-width: 420px;
+}
+
+.title-bottom--spacing {
+    margin-bottom: 20px;
+}
+.text-xlbold {
+    font-weight: 900;
+}
+
+.bodySectionIllustration .block-card--illustration, .bodySectionIllustration .help-card--illustration, .bodySectionIllustration .save-money--illustration, .bodySectionIllustration .your-money--illustration, .bodySectionIllustration svg.kuda-phoneDebit--illustration {
+    width: 100%!important;
+    max-width: 500px;
+    height: auto!important;
+}
+
+.learnMore {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-top: 26px;
+    display: inline-flex!important;
+    cursor: pointer;
+}
+
+.learnMore span {
+    display: inline-flex;
+}
+
+.arrowRightIcon {
+    margin-left: 10px;
+}
+
+.bodyCTASection {
+    margin-top: -3%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1280px) and (max-height: 698px){
+    .container {
+        max-width: 991px;
+    }
+    .bodySection42 {
+        width: 42%;
+    }
+    .bodySection58 {
+        width: 58%;
+    }
+    .buttonCTA {
+        font-size: 12.5px;
+        height: 42px;
+    }
+    .homeMainWrap {
+        max-width: 344px;
+    }
+    .defaultPreview {
+        margin-top: 58px;
+        padding: 40px 40px 55px;
+    }
+    .container {
+        max-width: 991px;
+    }
+    .defaultHomeFold {
+        min-height: 469px;
+    }
+    .defaultEntryInner:not(.bodyCTASection) {
+        min-height: 440px;
+        overflow: hidden;
+    }
+    .defaultHomeFold>div {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .bodyMainWrap * {
+        text-align: center;
+    }
+    .footerGlobal a {
+        margin: auto;
+    }
+    .defaultEntryInner>div>.homeMainWrap {
+        margin-top: 10px;
+    }
+    .homeMainWrap {
+        display: flex;
+        flex-direction: column;
+        max-width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .text-xl {
+        font-size: 2.5rem!important;
+        line-height: 1.33;
+    }
+    .defaultEntryFold .homeMainWrap *, .homeMainWrap * {
+        text-align: left!important;
+    }
+    
+    .bodySection50, .homeSection50 {
+        width: 100%;
+    }
+    .bodyIllustrationCenter {
+        margin-top: 30px;
+        display: block;
+    }
+    .hasAnimation, .bodySectionIllustration>[aria-label=animation] {
+        max-width: 420px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bodySection {
+        margin-top: 120px;
+    }
+    .bodySectionInner, .kuda-summary--cards {
+        flex-wrap: wrap;
+    }
+    .bodySection55, .bodySection45, .summary-bottom .card, .summary-top .card {
+        width: 100%!important;
+    }
+    .bodySectionMax, .bodySectionWrap {
+        margin-left: auto!important;
+        margin-right: auto!important;
+        display: flex;
+        flex-direction: column;
+    }
+    .bodySectionWrap * {
+        text-align: center;
+    }
+    .bodySectionHeading {
+        font-size: 2rem;
+    }
+    .mobileReverse {
+        flex-direction: column-reverse;
+    }
+    .learnMore {
+        justify-content: center;
+    }
+    .bodySectionIllustration img, .bodySectionIllustration svg {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+    .bodyCTASection {
+        padding: 35px 20px;
+    }
+    .defaultEntryInner {
+        flex-wrap: wrap;
+    }
+    .ctaIllustration {
+        display: none;
+    }
+    .bodyIllustrationCenter svg {
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+     .bodySection50{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .defaultGetWrap {
+        display: none!important;
+    }
+    .defaultEntryFold .homeMainWrap *, .homeMainWrap * {
+        text-align: center!important;
+    }
+    .bodySection42, .bodySection50, .bodySection58 {
+        width: 100%;
+    }
+}
+
+

@@ -1,0 +1,336 @@
+.signInEntry, .signInWrapper {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.signInDiv .defaultLayout {
+    position: relative;
+}
+
+.signInContainer {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 100%;
+}
+
+.signInClass .signInWrap {
+    position: relative;
+    z-index: 9;
+}
+
+.signInClass .signInGlobeSkeleton > svg {
+    z-index: 1;
+    position: absolute;
+    left: 595px;
+    top: calc(50% + 15px);
+    transform: translateY(-50%);
+    zoom: 1.035;
+}
+
+.signInCardWrapClass {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 435px;
+}
+
+.bgBlue {
+    background-color: rgb(239, 241, 255);
+    padding: 10px 20px;
+    border: 1px solid hsla(228,7%,87%,.5);
+    border-radius: 5px;
+    box-shadow: 15px 30px 40px rgb(64 25 109 / 7%);
+}
+
+.margin-bottom-3, .my-3 {
+    margin-bottom: 1rem!important;
+}
+
+.text-sm {
+    font-size: .815rem;
+}
+
+.signInHeaderWrap2 {
+    max-width: none;
+    margin: 0px auto;
+    display: flex;
+    font-weight: 700;
+}
+
+.signInClass .text-sm p {
+    font-size: 0.815rem;
+}
+
+.signInHeaderWrap2 > * {
+    width: 100%;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.signInCardWrapDivClass {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 435px;
+}
+
+.logInWrap  {
+    background: #fff;
+    border: 1px solid hsla(228,7%,87%,.5);
+    border-radius: 5px;
+    box-shadow: 15px 30px 40px rgb(64 25 109 / 7%);
+    padding: 40px 55px 49px;
+}
+
+.text-xlbold {
+    font-weight: 900;
+}
+
+.color-secondary {
+    color: #48d38a!important;
+}
+
+.signInH4 {
+    max-width: none;
+    margin: 0px auto;
+    display: flex;
+    font-weight: 900;
+}
+
+.signInH4 > * {
+    width: 100%;
+}
+
+h4 {
+    font-size: 1.375rem;
+    line-height: 1.3;
+}
+
+.h4Bold {
+    font-weight: 900;
+}
+
+.margin-bottom-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+}
+
+.signInP {
+    max-width: none;
+    margin: 0px auto;
+    display: flex;
+    font-weight: 400;
+}
+
+.signInP > * {
+    width: 100%;
+}
+
+.signInDiv .signInGlobeIllustration > svg {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+    width: auto;
+}
+
+.mobileInput {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 22px;
+    position: relative;
+}
+
+.inputDiv .formLabel {
+    font-size: 0.9125rem;
+}
+
+.denomination, .normalInputWrap {
+    border: 1px solid #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgb(0 0 0 / 10%);
+}
+
+.normalInputWrap {
+    background: #fff;
+    margin-top: 12px;
+    position: relative;
+}
+
+.normalInput {
+    padding-left: 15px;
+}
+
+.amountInput {
+    font-size: 15px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    height: 100%;
+    min-height: 46px;
+    outline: none;
+    width: 100%;
+}
+
+.inputDiv .passwordBox {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-right: 13px;
+    padding-top: 3px;
+    max-height: 50px;
+}
+
+input {
+    font-weight: 600;
+}
+
+input {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+.forgetLabel {
+    font-size: .8125rem;
+    margin-top: 15px;
+}
+
+.text-semi-bold {
+    font-weight: 600;
+}
+
+.forgetLabel .color-primary {
+    cursor: pointer;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+.margin-top-4, .my-4 {
+    margin-top: 1.5rem!important;
+}
+
+.signInBtn {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 25px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: none;
+    transition: all 0.6s ease 0s;
+    border-radius: 10px;
+    background: rgb(64, 25, 109);
+    height: 48px;
+    box-shadow: rgb(64 25 109 / 25%) 0px 4px 10px;
+    opacity: 0.5;
+    pointer-events: none;
+    font-size: 16px;
+    width: 152px;
+}
+
+button {
+    outline: none;
+}
+
+button, select {
+    text-transform: none;
+}
+
+.disclaimer {
+    font-size: .785rem!important;
+    margin-top: 21px;
+    max-width: 315px;
+}
+
+.buttonCTA {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    padding: 15px;
+    transition: -webkit-transform .6s;
+    transition: transform .6s;
+    transition: transform .6s,-webkit-transform .6s;
+}
+
+.buttonCTA {
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 320px){
+    .auth-layout--header+.defaultView, .logInWrap, .defaultHeaderWrap, .kuda-layout---card, .defaultView, .modal-content, .phoneupdate-wrap, footer .container {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+    .auth-layout--header:not(.authenticated-header) {
+        height: 110px;
+    }
+    .auth-layout--header:not(.authenticated-header) 
+    .defaultHeaderWrap {
+        align-items: start!important;
+        flex-direction: column;
+    }
+    .auth-layout--header
+     .headerActions {
+        position: static;
+    }
+    .headerActions {
+        width: 100%;
+    }
+    .defaultHeaderWrap .buttonCTA {
+        max-width: 100%;
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .defaultHeaderWrap .buttonCTA {
+        font-size: 13px;
+        height: 42px;
+        width: 100%;
+    }    
+}
+
+@media only screen and (max-width: 767px){
+    .defaultView {
+        padding-top: 30px;
+        padding-bottom: 100px;
+        display: block;
+    }
+    .signInContainer {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+    }
+    .signInCardWrapClass:not(.friends-layout):not(.friends-layout-left) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
