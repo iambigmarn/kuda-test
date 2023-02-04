@@ -8,9 +8,9 @@ function App() {
   return (
     <Router basename="/kuda-test">
       <Routes>
-        <Route path="/" element={<HomePage/>}/>
-        <Route path="/joinKuda" element={<JoinKuda/>}/>
-        <Route path="/signIn" element={<SignIn/>}/>
+        <Route path="/" component={<HomePage/>}/>
+        <Route path="/joinKuda" component={<JoinKuda/>}/>
+        <Route path="/signIn" component={<SignIn/>}/>
       </Routes>
     </Router>
   );
