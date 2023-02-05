@@ -194,10 +194,10 @@ export const HeaderOne = () => {
                             </ul>
                         </div>
                         <div className="defaultHeaderExtras flex align-center">
-                            <a href="/#/signIn" rel="noopener noreferrer" className="text-bold buttonCTAWide headerOneNav color-primary">
+                            <a href="/kuda-test/#/signIn" rel="noopener noreferrer" className="text-bold buttonCTAWide headerOneNav color-primary">
                                 Sign In
                             </a>
-                            <a className="buttonCTA btn-m btn-primary-color btn-full ms-0" href="/#/joinKuda">
+                            <a className="buttonCTA btn-m btn-primary-color btn-full ms-0" href="/kuda-test/#/joinKuda">
                                 Join Kuda
                             </a>
                         </div>
@@ -313,7 +313,7 @@ export const HeaderOne = () => {
                                 </span>
                                 </div>
                                 <div className="headerOneMenuActions flex">
-                                    <a href="/#/signIn" rel="noopener noreferrer" className="headerOneMenuAction buttonCTA buttonCTAMd">
+                                    <a href="/kuda-test/#/signIn" rel="noopener noreferrer" className="headerOneMenuAction buttonCTA buttonCTAMd">
                                         Sign In
                                     </a>
                                     <a href="#" className="ms-3 headerOneMenuAction buttonCTA buttonCTAPrimaryLight">
