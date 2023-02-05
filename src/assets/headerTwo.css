@@ -31,7 +31,16 @@
     width: 175px;
 }
 
+.buttonCTALg:hover {
+    color: #40196d;
+}
+
 .buttonCTAPrimaryLight {
+    background: #eff1ff;
+    color: #40196d;
+}
+
+.buttonCTAPrimaryLight:hover {
     background: #eff1ff;
     color: #40196d;
 }
