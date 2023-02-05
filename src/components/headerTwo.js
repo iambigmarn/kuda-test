@@ -7,11 +7,11 @@ export const HeaderTwo = () => {
         <div className="defaultHeaderWrap">
             <header className="defaultHeader auth-layout--header align-center flex">
                 <div className="flex justify-between align-center column--100 defaultHeaderWrap">
-                    <a className="logoBrand" href="/">
+                    <a className="logoBrand" href="/kuda-test/">
                         <HeaderLogo width={650} height={146} />
                     </a>
                     <div className="headerActions">
-                        <a href="/joinKuda" className="ms-0 buttonCTA buttonCTAPrimaryLight buttonCTALg" rel="noopener noreferrer">
+                        <a href="/kuda-test/#/joinKuda" className="ms-0 buttonCTA buttonCTAPrimaryLight buttonCTALg" rel="noopener noreferrer">
                             Open an Account
                         </a>
                     </div>

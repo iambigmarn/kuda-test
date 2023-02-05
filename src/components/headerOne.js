@@ -33,7 +33,7 @@ export const HeaderOne = () => {
                 <header className="defaultHeader align-center flex">
                     <div className="flex justify-between align-center column100 defaultHeaderWrap">
                         <div className="defaultMainHeader flex align-center">
-                            <a aria-current="page" exact="true" className="logoBrand" href="/">
+                            <a aria-current="page" exact="true" className="logoBrand" href="/kuda-test/">
                                 <HeaderLogo/>
                             </a>
                             <ul className="defaultMenuWrap flex align-center">
@@ -305,7 +305,7 @@ export const HeaderOne = () => {
                         <div className="defaultMenuWrap flex align-center">
                             <div className="defaultFooterNav flex flex-column">
                                 <div className="headerMobileBrand">
-                                <a aria-current="page" className="logoBrand" href="/">
+                                <a aria-current="page" className="logoBrand" href="/kuda-test/">
                                     <HeaderLogo width={99} height={22} />
                                 </a>
                                 <span className="closeMenu animate fadeIn">

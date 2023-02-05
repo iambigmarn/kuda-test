@@ -104,7 +104,7 @@ export const HomePage  = () => {
                                     </a>
                                 </div>
                                 <div className="defaultGetWrap">
-                                    <a className="buttonCTA buttonCTALong mt-4 ms-0" href="/joinKuda">
+                                    <a className="buttonCTA buttonCTALong mt-4 ms-0" href="/kuda-test/#/joinKuda">
                                         Join Kuda
                                     </a>
                                 </div>
@@ -125,7 +125,6 @@ export const HomePage  = () => {
                     </div>
                 </div>
                 <div className="bodySection bodyBelowAnimation">
-                {/* <div className="div1Visible bodySectionInner flex justify-between align-center fadeInUp"> */}
                     <div  className={`div1Visible bodySectionInner flex justify-between align-center fadeInUp ${div1Visible ? 'animate' : ''}`}>
                         <div className="bodySection55">
                             <div className="bodySectionWrap">
@@ -281,7 +280,7 @@ export const HomePage  = () => {
                             </a>
                             </div>
                             <div className="defaultGetWrap footerGlobal">
-                                <a className="buttonCTA buttonCTALong mt-4 ms-0" href="/joinKuda/">
+                                <a className="buttonCTA buttonCTALong mt-4 ms-0" href="/kuda-test/#/joinKuda">
                                     Join Kuda
                                 </a>
                             </div>
