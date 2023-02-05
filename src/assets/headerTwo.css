@@ -66,6 +66,13 @@
 
 
 @media only screen and (max-width: 767px) {
+    .defaultHeaderWrap {
+        display: block;
+        margin: 0 auto;
+        max-width: 1500px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .defaultHeader {
         height: 64px;
     }

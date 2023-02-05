@@ -459,6 +459,9 @@ a {
         height: 16px;
         display: flex;
     }
+    .headerGlobalMenuWrap {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 991px){
